@@ -1,5 +1,6 @@
 # Lid_Driven_Cavity_artificial_compressbility_method
-A simple C++ code to solve the classical Lid driven cavity problem on a staggered grid using the artificial compressbility method.
+A simple C++ code to solve the classical Lid driven cavity problem on a staggered grid using the artificial compressbility method. The Eigen library is used for the arrays in this code (https://eigen.tuxfamily.org/index.php?title=Main_Page) 
+
 
 It is benchmarked here for Re=1000 and compared with the results of Ghia and Ghia :-
 
