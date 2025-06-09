@@ -5,8 +5,10 @@
 #include<omp.h>
 
 
-using Eigen::MatrixXd;
-typedef Eigen::MatrixXd dmatrix;
+//using Eigen::MatrixXd;
+//typedef Eigen::MatrixXd dmatrix;
+using dmatrix = Eigen::Matrix<double, Eigen::Dynamic, Eigen::Dynamic, Eigen::RowMajor>;   //the loops are accessed in row major so this is a dirty way to improve the performance without upending the code
+
 
 //grid:
 const double lx=1.0;
